@@ -1,1 +1,1 @@
-![Link](https://holymolygrail.netlify.app/)
+[HolyMolyGrail](https://holymolygrail.netlify.app/)
