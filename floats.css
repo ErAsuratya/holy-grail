@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Notable&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+html {
+  background-color: #eeeeee;
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+}
+body {
+  text-align: center;
+}
+main {
+  font-size: 20px;
+  float: none;
+  text-align: justify;
+}
+header {
+  position: relative;
+  font-size: 30 px;
+  font-weight: bold;
+  padding-top: 10px;
+  font-family: "Notable", sans-serif;
+  text-align: center;
+}
+aside {
+  float: left;
+  margin-left: 5px;
+  align-content: justify;
+}
+nav {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 2px;
+  font-family: "Zilla Slab", serif;
+  float: none;
+}
+nav a {
+  display: block;
+}
+footer {
+  margin-top: 500px;
+  margin-bottom: 10px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 680px) {
+  nav {
+    width: 20%;
+    float: left;
+    padding-left: 1%;
+  }
+
+  main {
+    width: 50%;
+    float: left;
+  }
+
+  aside {
+    width: 25%;
+    float: left;
+    margin-left: 10px;
+  }
+
+  footer {
+    float: left;
+  }
+}
